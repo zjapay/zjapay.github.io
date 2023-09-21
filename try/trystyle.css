@@ -490,8 +490,8 @@
   
   .calendar-container {
     position: absolute;
-    top: 650px; /* Adjust the position as needed */
-    left: 689px; /* Adjust the position as needed */
+    top: 635px; /* Adjust the position as needed */
+    left: 688px; /* Adjust the position as needed */
     width: 523px;
     height: 250px;
     background-color: #ffffff;
@@ -500,9 +500,15 @@
 
   .calendar-cell {
     width: 40px;
-    height: 40px;
+    height: 10px;
     text-align: center;
-    line-height: 40px;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0;
+    line-height: 37px;
+    min-width: 74px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+  }
+
+  .calendar {
+    margin-top: 20px;
+    margin-left: 20px;
   }
