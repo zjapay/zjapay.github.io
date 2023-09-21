@@ -1,1 +1,508 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    height: 1024px;
+  }
+  
+  .desktop .background {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 969px;
+    top: 55px;
+    left: 0;
+  }
+  
+  .desktop .BG-violet {
+    position: absolute;
+    width: 909px;
+    height: 969px;
+    top: 0;
+    left: 531px;
+    background-color: #f9faff;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+  }
+  
+  .desktop .a-background {
+    position: absolute;
+    width: 552px;
+    height: 969px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-color: #000000;
+    box-shadow: 0px 21px 79px #00000014, 0px 4px 4px #00000040;
+  }
+  
+  .desktop .upper-pannel {
+    position: absolute;
+    width: 1440px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    background-color: #dbcdf0df;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .desktop .b-heading {
+    position: absolute;
+    width: 330px;
+    top: 102px;
+    left: 825px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .credit-section {
+    position: absolute;
+    width: 683px;
+    height: 186px;
+    top: 425px;
+    left: 632px;
+  }
+  
+  .desktop .credit-date-wrapper {
+    position: absolute;
+    width: 643px;
+    height: 135px;
+    top: 51px;
+    left: 36px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .credit-date {
+    position: absolute;
+    width: 145px;
+    top: 74px;
+    left: 477px;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: var(--primary-icon);
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    line-height: normal;
+  }
+  
+  .desktop .credit-ellipse {
+    position: absolute;
+    width: 36px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    background-color: #ffaaaa;
+    border-radius: 18px/18.62px;
+  }
+  
+  .desktop .credit-heading {
+    position: absolute;
+    width: 159px;
+    top: 6px;
+    left: 45px;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .debit-section {
+    position: absolute;
+    width: 683px;
+    height: 182px;
+    top: 201px;
+    left: 632px;
+  }
+  
+  .desktop .debit-date-wrapper {
+    position: absolute;
+    width: 643px;
+    height: 135px;
+    top: 47px;
+    left: 36px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .debit-date {
+    position: absolute;
+    width: 145px;
+    top: 79px;
+    left: 477px;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: var(--primary-icon);
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    line-height: normal;
+  }
+  
+  .desktop .debit-ellipse {
+    position: absolute;
+    width: 36px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    background-color: #b0ffae;
+    border-radius: 18px/18.62px;
+  }
+  
+  .desktop .debit-heading {
+    position: absolute;
+    width: 141px;
+    top: 5px;
+    left: 45px;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .calendar-section {
+    position: absolute;
+    width: 646px;
+    height: 315px;
+    top: 645px;
+    left: 632px;
+  }
+  
+  .desktop .calendar-heading {
+    position: absolute;
+    width: 240px;
+    top: 0;
+    left: 0;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 572px;
+    height: 269px;
+    top: 46px;
+    left: 72px;
+    background-color: #cec7ff;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .display-PB {
+    position: absolute;
+    width: 450px;
+    height: 562px;
+    top: 416px;
+    left: 56px;
+  }
+  
+  .desktop .div {
+    position: absolute;
+    width: 426px;
+    height: 101px;
+    top: 401px;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    width: 186px;
+    top: 0;
+    left: 0;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .PS-box {
+    position: absolute;
+    width: 413px;
+    height: 69px;
+    top: 32px;
+    left: 13px;
+    background-color: #f0f0f0;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .amount-business {
+    position: absolute;
+    width: 76px;
+    top: 42px;
+    left: 13px;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    width: 233px;
+    top: 0;
+    left: 103px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .overlap-2 {
+    position: absolute;
+    width: 424px;
+    height: 101px;
+    top: 206px;
+    left: 0;
+  }
+  
+  .desktop .BS-box {
+    position: absolute;
+    width: 413px;
+    height: 69px;
+    top: 32px;
+    left: 11px;
+    background-color: #fdedd5;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .amount-personal-wrapper {
+    position: absolute;
+    width: 413px;
+    height: 69px;
+    top: 114px;
+    left: 11px;
+    background-color: #fde4f9;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .amount-personal {
+    position: absolute;
+    width: 76px;
+    top: 9px;
+    left: 1px;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .PS-text-button-wrapper {
+    position: absolute;
+    width: 189px;
+    height: 37px;
+    top: 525px;
+    left: 10px;
+    background-color: #e9f5e9;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    width: 186px;
+    top: 4px;
+    left: 1px;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .BS-text-button-wrapper {
+    position: absolute;
+    width: 189px;
+    height: 37px;
+    top: 525px;
+    left: 243px;
+    background-color: #e7f1dc;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .personal-savings {
+    position: absolute;
+    width: 186px;
+    top: 74px;
+    left: 0;
+    font-family: "Recursive", Helvetica;
+    font-weight: 400;
+    color: #0f1231;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .trafficlight {
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    top: 14px;
+    left: 1291px;
+  }
+  
+  .desktop .minimize-button {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    background-color: #84fc81;
+    border-radius: 13.5px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .double-d {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0;
+    left: 40px;
+    background-color: #ffcd83;
+    border-radius: 13.5px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .exit-button {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 0;
+    left: 80px;
+    background-color: #ff6060;
+    border-radius: 13.5px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .desktop .profile {
+    position: absolute;
+    width: 353px;
+    height: 269px;
+    top: 76px;
+    left: 40px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 0;
+    font-family: "Bungee Shade", Helvetica;
+    font-weight: 400;
+    color: var(--color-1);
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .ellipse {
+    position: absolute;
+    width: 230px;
+    height: 193px;
+    top: 76px;
+    left: 121px;
+    background-color: #d9d9d9;
+    border-radius: 115px/96.5px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .calendar-container {
+    position: absolute;
+    top: 650px; /* Adjust the position as needed */
+    left: 689px; /* Adjust the position as needed */
+    width: 523px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+  }
 
+  .calendar-cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
