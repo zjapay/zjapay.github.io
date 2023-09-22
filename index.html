@@ -1,56 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css"> 
-    <style>
-
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #6a77da;
-            color: #fff;
-            text-align: left;
-            padding: 30px;
-        }
-        nav a {
-            text-decoration: none;
-            margin: 20px;
-            color: #000000;  
-            padding: 10px;
-            border-radius: 10px;
-            display: inline-block;
-            transition: background-color 0.3s ease;
-        }
-
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Zon Trisha M. Japay</h1>
-        <p>My Portfolio</p>
-    </header>
-
-
-    <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio Website</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="profilee.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="./img/logo.png" class="logo" />
         <ul>
-        <li><a href = "https://zjapay.github.io/Prelim/FashionBlog/Fashion.html">Fashion Blog</a></li>
-        <li><a href = "https://zjapay.github.io/Prelim/WineFS/WineFestivalSchedule.html">Wine Festival Schedule</a></li>
-        <li><a href = "https://zjapay.github.io/Prelim/DaviesBurger/daviesB.html">Davies Burger</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Personal Story</a></li>
+          <li><a href="#">Web Development</a></li>
+
+          <div class="dropdown">
+                        <span class="dropdown-content">
+                            <a href="https://zjapay.github.io/Prelim/FashionBlog/Fashion.html">Fashion</a>
+                            <a href="https://zjapay.github.io/Prelim/WineFS/WineFestivalSchedule.html">Wine</a>
+                            <a href="https://zjapay.github.io/Prelim/DaviesBurger/daviesB.html">Burger</a>
+                            <a href="https://zjapay.github.io/try/try.html">Financial Tracker</a>
+
+          <li><a href="#">Personal Files</a></li>
+          <li><a href="#">Reach me here!</a></li>
         </ul>
-    </nav>
+        <a href="#" class="btn">Continue...</a>
+      </nav>
 
-
-    <footer>
-        <p>&copy; 2023-2024 web development CC211</p>
-    </footer>
-
-
-</body>
+      <div class="content">
+        <span class="title">Student</span>
+        <h1>Hello, I’m <span>Trisha!</span></h1>
+        <p>
+            I'm a student from BSIT - 2B.
+        </p>
+        <a href="#" class="btn">To be added...</a>
+      </div>
+    </div>
+  </body>
 </html>
