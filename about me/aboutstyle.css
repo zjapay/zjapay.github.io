@@ -1,1 +1,140 @@
-
+.twitter-post {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .twitter-post .div {
+    background-color: #ffffff;
+    width: 1200px;
+    height: 675px;
+    position: relative;
+  }
+  
+  .twitter-post .about-me-heading {
+    position: absolute;
+    width: 403px;
+    top: 70px;
+    left: 58px;
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .twitter-post .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1px;
+    position: absolute;
+    width: 243px;
+    height: 261px;
+    top: 305px;
+    left: 909px;
+  }
+  
+  .twitter-post .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .twitter-post .text-wrapper {
+    font-family: "Inter-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .twitter-post .span {
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .twitter-post .TK {
+    position: absolute;
+    width: 791px;
+    height: 407px;
+    top: 186px;
+    left: 67px;
+  }
+  
+  .twitter-post .overlap-group {
+    position: relative;
+    width: 787px;
+    height: 407px;
+  }
+  
+  .twitter-post .rectangle {
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-color: #ff53ed;
+    position: absolute;
+    width: 757px;
+    height: 381px;
+    border: 1px solid;
+  }
+  
+  .twitter-post .rectangle-2 {
+    top: 26px;
+    left: 30px;
+    border-color: #53ff65;
+    position: absolute;
+    width: 757px;
+    height: 381px;
+    border: 1px solid;
+  }
+  
+  .twitter-post .description {
+    position: absolute;
+    width: 508px;
+    top: 51px;
+    left: 87px;
+    font-family: "Inter-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .twitter-post .back-text {
+    position: absolute;
+    width: 403px;
+    top: 188px;
+    left: 469px;
+    transform: rotate(89.61deg);
+    opacity: 0.3;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: #ff66ac;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 6px;
+    line-height: normal;
+  }
+  
+  .twitter-post .ellipse {
+    position: absolute;
+    width: 199px;
+    height: 175px;
+    top: 102px;
+    left: 921px;
+    background-color: #d9d9d9;
+    border-radius: 99.5px/87.5px;
+  }
